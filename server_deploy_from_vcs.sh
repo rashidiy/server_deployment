@@ -36,7 +36,7 @@ pip3 manage.py collectstatic --no-input
 cat >/etc/nginx/sites-available/$project_name <<EOL
 server {
     listen ${project_port};
-    #server_name $domain;
+    server_name $domain;
 
     # location = /favicon.ico { access_log off; log_not_found off; }
     location /static/ {
