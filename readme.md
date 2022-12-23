@@ -18,3 +18,7 @@ git clone https://github.com/rashideveloperr/server_deployment.git
 ```shell
 . server_deployment/server_deploy_from_vcs.sh <project_url> <project_name> <domain> <project_port>
 ```
+| *Reload Daemon*
+```shell
+systemctl daemon-reload
+```
