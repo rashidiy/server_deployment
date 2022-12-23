@@ -18,6 +18,10 @@ git clone https://github.com/rashideveloperr/server_deployment.git
 ```shell
 . server_deployment/server_deploy_from_vcs.sh <project_url> <project_name> <domain> <project_port>
 ```
+| *Undeploy from server*
+```shell
+. server_deploymet/server_undeploy.sh <project_name>
+```
 | *Reload Daemon*
 ```shell
 systemctl daemon-reload
