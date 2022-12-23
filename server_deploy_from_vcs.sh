@@ -20,7 +20,7 @@ mkdir $project_name
 
 # Clone from Git
 git clone $project_url ./$project_name
-cd project_name
+cd $project_name
 
 # Activate venv
 python3 -m venv venv
